@@ -23,10 +23,6 @@ Go to this [link](https://kontext.tech/column/tools/308/how-to-install-windows-s
 
 11. If these are not installed, run `$ sudo apt install git` and `$ sudo apt install curl` (or use another package manager).  
 
-12. Install the Homebrew Package Manager by running `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.  When it is done, it should show a message at the end to add brew to PATH. Copy and paste these TWO instructions into terminal subsequently. 
-
-13. (Optional) Run `$ sudo apt install gcc`.  
-
 14. We will now install our shell: Z-Shell (zsh).  
 Run `$ sudo apt install zsh -y` followed by `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`.  
 You will be prompt to set is as default shell (do so!). You will need to enter your password. The cursor will not move so be careful when inputting your password.  
@@ -42,6 +38,10 @@ Save the file and restart Windows Terminal.
 17. You should be prompt with a setup, set it up as you like. My configuration is as follows:  
 Rainbow, Unicode, No time, Slanted, Sharp, Flat, One line, Compact, Many icons, Concise, No transient prompt, Quiet.  
 Save the configuration and the shell setup is complete!  
+
+12. Install the Homebrew Package Manager by running `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`.  When it is done, it should show a message at the end to add brew to PATH. Copy and paste these TWO instructions into terminal subsequently. 
+
+13. (Optional) Run `$ sudo apt install gcc`.  
 
 18. Here is the extra stuff that makes life on the command line a lot more better.  
 # ICONS:  
