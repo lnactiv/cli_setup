@@ -49,3 +49,30 @@ Run `$ brew install lsd`
 Edit .zshrc. Add `alias ls="lsd"` to the file. There is an alias section near the bottom of the file, add it there.  
 Restart terminal.  
 
+# CHANGING WHAT DIR IS SHOWN:  
+Edit .p10k.zsh  
+Change the shorten strategy from  
+"truncate_to_unique" -> "truncate_to_last"  
+
+# ZSH PLUGINS:  
+Run `$ git clone https://github.com/zsh-users/zsh-autosuggestions` and `$ git clone https://github.com/zsh-users/zsh-syntax-highlighting`. Make sure they are in ~/.oh-my-zsh/plugins (move them otherwise). Edit .zshrc, change the plugins to plugins(zsh-syntax-highlighting zsh-autosuggestions). Restart terminal.  
+(Can also add colored-man-pages)!  
+May need to run chmod 700 on the folders.  
+
+# REMOVE RIGHT SIDE PROMPTS:  
+If you don't want to have the right side prompts, you can remove them by doing the following.  
+Edit `~/.p10k.zsh`  
+Go to the RIGHT PROMPT ELEMENTS section, and comment out the ones you do not like.
+
+
+# IF YOU EXPERIENCE WEIRD BACKGROUND COLOURS ON DIRECTORIES WHEN USING CD, YOU CAN FIX BY DOING THE FOLLOWING:  
+Run `$ dircolors -p > ~/.dircolors` and edit the .dircolors file using vim. There should be a "sticky" section where numbers are coloured and have backgrounds. Change the "right" number to 00 then save.  
+
+You will then need to copy the following into your .zshrc file (below instant prompt)
+`test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"`  
+
+Restart terminal, and the weird background colour should be gone!  
+
+
+
+
