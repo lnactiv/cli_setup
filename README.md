@@ -11,6 +11,6 @@ Go to this [link](https://kontext.tech/column/tools/308/how-to-install-windows-s
 
 5. Run the Linux Distro for the first time. (If you installed via Microsoft Store, it can be run through Start. If you installed on a different drive, the link will tell you how to run it the first time). You will need to enter a username and password. Once this is complete, you can close the distro.
   
-6. Go to [NerdFonts](nerdfonts.com) and download a font. This is to allow the terminal to display icons. The default font cannot display icons. The font I am using is "DroidSansMono Nerd Font". Once the font is download, extract the folder and install the fonts. You will need to go through and remember a font name (which is obtained by opening the font file).  
+6. Go to [NerdFonts](nerdfonts.com) and download a font. This is to allow the terminal to display icons. The default font cannot display icons. The font I am using is "DroidSansMono Nerd Font". Once the font is download, extract the folder and install the fonts.
 
 7. Open Windows Terminal and go through the settings.
