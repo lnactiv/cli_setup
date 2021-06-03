@@ -119,6 +119,8 @@ alias gpl="git pull"
 alias gs="git status -sb"
 alias gl="git lg"
 alias gck="git checkout"
+alias gcl="git clone"
+alias gm="git merge"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
