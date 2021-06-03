@@ -110,7 +110,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="lsd"
-alias vinh="cd /mnt/d/Users/Vinh/Vinh"
 
 alias ga="git add"
 alias gc="git commit"
@@ -126,4 +125,4 @@ alias gm="git merge"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
-cd /mnt/d/Users/Vinh/Vinh
+cd ~
