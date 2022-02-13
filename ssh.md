@@ -7,6 +7,9 @@ cd ~/.ssh
 ssh-keygen -f ~/.ssh/cse_id_rsa -t rsa -b 4096 -C “z5555555@cse.unsw.edu.au”  
 Don't put passphrase.  
 ssh-copy-id -i ~/.ssh/cse_id_rsa.pub z5555555@cse.unsw.edu.au  
+
+type $env:USERPROFILE\.ssh\id_rsa.pub | ssh {IP-ADDRESS-OR-FQDN} "cat >> .ssh/authorized_keys"
+
 eval "$(ssh-agent -s)"  
 ssh-add ~/.ssh/cse_id_rsa  
 
